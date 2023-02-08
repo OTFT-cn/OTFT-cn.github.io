@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>这里没有标题</title>
+</head>
+<link rel="shortcut icon" href="1.ico"/>
+<body>
+<h1 data-text="1252">1252</h1>
+<style>{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #252839;
+}
+h1
+{
+    position: relative;
+    font-size: 14vw;
+    color: #252839;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.3vw #383d52;
+}
+h1:before
+{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #01fe87;
+    overflow: hidden;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 4px solid #01fe87;
+    animation: animate 4s linear infinite;
+}
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+}
+	h2{text-align: center;color: azure;}	</style>
+</body>
+	<h2><a href="index 2.html">进入详情页</a></h2>
+<h2><a href="https://imgse.com/i/pS27JRH"><img src="https://s1.ax1x.com/2023/02/08/pS27JRH.md.jpg" alt="pS27JRH.jpg" border="0" /></a></h2>
+
+</html>
